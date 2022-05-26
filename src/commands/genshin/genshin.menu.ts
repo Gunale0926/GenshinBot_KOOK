@@ -6,7 +6,7 @@ class GenshinMenu extends MenuCommand {
     trigger = 'genshin';
     help = '如需测试请发送".genshin"';
     intro = '菜单';
-    menu = new Card().addText('一些卡片里需要展示的东西').toString();
+    menu = new Card().addText('`.genshin wiki`\n`.genshin player`').toString();
     useCardMenu = true; // 使用卡片菜单
 }
 
