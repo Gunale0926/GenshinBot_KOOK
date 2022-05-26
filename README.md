@@ -1,2 +1,2 @@
-# kbotify-template
-Starter kit for kBotify bots
+# Genshin-Kaiheila-Bot-kbotify
+Genshin Wiki & User

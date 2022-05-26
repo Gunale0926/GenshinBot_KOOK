@@ -7,6 +7,7 @@
         }
     },
     "compilerOptions": {
+        "strictNullChecks": false,
         "declaration": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
@@ -18,7 +19,7 @@
         "rootDirs": ["src"],
         "outDir": "./dist",
         // "outFile": "./dist/kbotify.js",
-        "strict": true,
+        "strict": false,
         "typeRoots": ["./typings", "node_modules/@types"],
         // "paths": {
         //     "kaiheila-bot-root": ["node_modules/kaiheila-bot-root"],
