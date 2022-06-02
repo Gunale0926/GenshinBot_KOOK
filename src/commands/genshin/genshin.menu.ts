@@ -1,6 +1,6 @@
 import { Card, MenuCommand } from 'kbotify';
-import {genshinPlayer} from './genshin.player.app'
-import {genshinWiki} from './genshin.wiki.app'
+import { genshinPlayer } from './genshin.player.app';
+import { genshinWiki } from './genshin.wiki.app';
 class GenshinMenu extends MenuCommand {
     code = 'genshin';
     trigger = 'genshin';
@@ -10,4 +10,4 @@ class GenshinMenu extends MenuCommand {
     useCardMenu = true; // 使用卡片菜单
 }
 
-export const genshinMenu = new GenshinMenu(genshinPlayer,genshinWiki);
+export const genshinMenu = new GenshinMenu(genshinPlayer, genshinWiki);
